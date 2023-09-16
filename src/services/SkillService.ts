@@ -45,6 +45,7 @@ type PlayerLevelDatatableRow = CamelCasedProperties<{
   xp_multiplier: number;
   health_granted: number;
   expertise_points: number;
+  expertise_spent: number;
 }>;
 
 interface SkillMod {
